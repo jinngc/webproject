@@ -1,0 +1,794 @@
+* {
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* responsive web setting */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px transparent;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (max-width: 575px) {
+    .title {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .title {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .title {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .title {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .title {
+        width: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+#earth {
+    height: 100vh;
+    z-index: 15;
+}
+
+.lyrics{
+height: 100vh;
+}
+
+.earth-img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 1;
+}
+
+#mute_icon {
+position: absolute;
+top: 100px;
+width: 100px;
+height: 100px;
+
+}
+
+#float1 {
+    z-index: 20;
+    height: 500vh;
+}
+
+#float2 {
+    z-index: 20;
+    height: 500vh;
+}
+
+#float {
+    z-index: 20;
+    height: 500vh;
+}
+
+
+.opening {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    position: relative;
+    top: 230px;
+    padding: 25px;
+    width: 55%;
+    font-weight: 600;
+
+}
+
+.opening2 {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    padding: 25px;
+    width: 85%;
+    font-weight: 600;
+}
+
+.lanyu {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    padding: 25px;
+    width: 30%;
+    font-weight: 600;
+}
+
+
+.opening3 {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    padding: 25px;
+    width: 90%;
+    font-weight: 600;
+}
+
+.opening4 {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    position: relative;
+    top: 280px;
+    padding: 25px;
+    width: 100%;
+    font-weight: 600;
+}
+
+
+.floating-text {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    position: relative;
+    top: 230px;
+    left: 56%;
+    padding: 25px;
+    width: 18%;
+    font-weight: 600;
+
+}
+
+.work{
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.back{
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600; 
+}
+
+.info{
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600; 
+}
+
+.toggle {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+
+.toggle a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.87);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
+    font-weight: 900;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+ul li a:hover {
+    background: none;
+}
+
+.menu.active {
+    left: 0;
+    overflow: auto;
+}
+
+.video-container {
+    position: relative;
+    /* top: 0;
+    bottom: 0; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    /* width: auto;
+    height: auto; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 65px;
+    text-align: center;
+    position: absolute;
+    font-family: 'Noto Serif TC', serif, "PMingLiU", 微軟正黑體, 繁黑體, "Microsoft JhengHei", "Microsoft YaHei", "Heiti TC", "LiHei Pro", "PMingLiU";
+    color: white;
+    font-weight: 900;
+    top: 0;
+    padding: 50vh 0vh 0vh 0vh;
+    text-shadow: 2px 2px 30px black;
+}
+
+.firsttext {
+    top: 20vh;
+}
+
+#first1 {
+    background-image: url(./起飛.JPG);
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first2 {
+    background-image: url(19.JPG);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first3 {
+    background-image: url(./太平洋.JPG);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first4 {
+    background-image: url(./蘭嶼.JPG);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inter {
+    color: white;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-weight: "bolder";
+    text-align: center;
+    font-size: 25px;
+    top: 230px;
+    padding: 25px;
+}
+
+.paragraph {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    text-align: center;
+    top: 30px;
+    left: 25%;
+    padding: 25px;
+    width: 80%;
+    font-weight: 600;
+}
+
+.paragraph2 {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    text-align: center;
+    top: 30px;
+    left: 3%;
+    padding: 25px;
+    width: 90%;
+    font-weight: 600;
+}
+
+
+.boyintro {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    text-align: center;
+    top: 30px;
+    left: 10%;
+    padding: 25px;
+    width: 90%;
+    font-weight: 600;
+}
+
+.boyintro2 {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    text-align: center;
+    top: 80px;
+    left: 10%;
+    padding: 25px;
+    width: 90%;
+    font-weight: 600;
+}
+
+.dream {
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    text-align: center;
+    top: 30px;
+    left: 16%;
+    padding: 25px;
+    font-weight: 600;
+}
+
+
+#second {
+    background-color: black;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#third {
+    background-image: url(/Final_project-main/正面2.jpeg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#forth {
+    background-color: white;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map{
+    font-weight: bolder;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    padding: 25px;
+    /* width: 40%; */
+    font-weight: 600;
+}
+
+
+body {
+    font-family:'Noto Serif TC', serif,"PMingLiU";
+    margin: 0px;
+    padding: 0px;
+}
+
+::selection {
+    background: transparent;
+}
+
+h4 {
+    line-height: 1px;
+}
+
+.color1 {
+    color: #1BBC9B
+}
+
+.color2 {
+    color: #C0392B
+}
+
+.card {
+    color: #013243;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 400px;
+    background: #e0e1dc;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5), 20px 0 60px rgba(0, 0, 0, .5);
+    transition: 1s;
+}
+
+.card:hover {
+    transform: translate(-50%, -50%) perspective(2000px) scale(1.3);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5), 0 10px 100px rgba(0, 0, 0, .5);
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #BAC1BA;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+}
+
+.card:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background: #92A29C;
+    transform-origin: left;
+    transform: skewY(-45deg);
+}
+
+.card .imgBox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-origin: left;
+    transition: .7s;
+}
+
+.card .bark {
+    position: absolute;
+    background: #e0e1dc;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .7s;
+}
+
+.card .imgBox img {
+    width: 300px;
+    height: 400px;
+}
+
+.card:hover .imgBox {
+    transform: rotateY(-135deg);
+}
+
+.card:hover .bark {
+    opacity: 1;
+    transition: .6s;
+    box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
+}
+
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+    z-index: -1;
+    margin-top: 70px;
+}
+
+.card .details p {
+    font-size: 40px;
+    line-height: 250px;
+    padding: 0 50px 0 70px;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+
+}
+
+.card .details h4 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    padding: 0 50px 0 70px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+#prefifth {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fifth {
+    background-image: url(./游泳的海圖.png);
+    height: 300vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#sixth {
+    background-color: white;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seventh1 {
+    background-image: url(./棒球場.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seventh2 {
+    background-image: url(./圖片1.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seventh3 {
+    background-image: url(./圖片二.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eight {
+    background-color: white;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ninth {
+    background-image: url(P7.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tenth {
+    background-color: white;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#twelve {
+    background-color: black;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p3 {
+    font-size: 18px;
+    color: white;
+    font-family: "PMingLiU";
+    font-weight: "bold";
+    text-align: center;
+}
+
+#ending {
+    background-color: black;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ending {
+    margin-top: 100px;
+    font-size: 22px;
+    color: white;
+    font-family:  'Noto Serif TC', serif,'PMingLiU';
+    font-weight: "bold";
+    text-align: center;
+    
+}
+
+.ending1 {
+    margin-top: 100px;
+    font-size: 18px;
+    color: white;
+    font-family:  'Noto Serif TC', serif,'PMingLiU';
+    font-weight: "bold";
+    text-align: center;
+    /* height: 100vh; */
+}
+
+.ending2 {
+    margin-top: 100px;
+    font-size: 22px;
+    color: white;
+    font-family:  'Noto Serif TC', serif,'PMingLiU';
+    font-weight: "bold";
+    text-align: center;
+}
