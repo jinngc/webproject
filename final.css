@@ -105,8 +105,8 @@ a {
     z-index: 15;
 }
 
-.lyrics{
-height: 100vh;
+.lyrics {
+    height: 100vh;
 }
 
 .earth-img {
@@ -118,10 +118,10 @@ height: 100vh;
 }
 
 #mute_icon {
-position: absolute;
-top: 100px;
-width: 100px;
-height: 100px;
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    height: 100px;
 
 }
 
@@ -146,7 +146,7 @@ height: 100px;
     background-color: white;
     opacity: 0.5;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     position: relative;
     top: 230px;
@@ -161,7 +161,7 @@ height: 100px;
     background-color: white;
     opacity: 0.5;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     position: relative;
     top: 150px;
@@ -175,7 +175,7 @@ height: 100px;
     background-color: white;
     opacity: 0.5;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     position: relative;
     top: 300px;
@@ -190,7 +190,7 @@ height: 100px;
     background-color: white;
     opacity: 0.5;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     position: relative;
     top: 150px;
@@ -204,7 +204,7 @@ height: 100px;
     background-color: white;
     opacity: 0.5;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     position: relative;
     top: 280px;
@@ -219,7 +219,7 @@ height: 100px;
     background-color: white;
     opacity: 0.5;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     position: relative;
     top: 230px;
@@ -230,40 +230,40 @@ height: 100px;
 
 }
 
-.work{
+.work {
     font-weight: bolder;
     background-color: white;
     opacity: 0.7;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     text-align: center;
     padding: 15px;
     font-weight: 600;
 }
 
-.back{
+.back {
     font-weight: bolder;
     background-color: white;
     opacity: 0.7;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     text-align: center;
     padding: 15px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
-.info{
+.info {
     font-weight: bolder;
     background-color: white;
     opacity: 0.7;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 24px;
     text-align: center;
     padding: 15px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 .toggle {
@@ -403,7 +403,7 @@ ul li a:hover {
 
 .inter {
     color: white;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-weight: "bolder";
     text-align: center;
     font-size: 25px;
@@ -416,7 +416,7 @@ ul li a:hover {
     background-color: white;
     opacity: 0.7;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     text-align: center;
     top: 30px;
@@ -431,7 +431,7 @@ ul li a:hover {
     background-color: white;
     opacity: 0.7;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     text-align: center;
     top: 30px;
@@ -447,7 +447,7 @@ ul li a:hover {
     background-color: white;
     opacity: 0.7;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     text-align: center;
     top: 30px;
@@ -462,7 +462,7 @@ ul li a:hover {
     background-color: white;
     opacity: 0.7;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     text-align: center;
     top: 80px;
@@ -477,7 +477,7 @@ ul li a:hover {
     background-color: white;
     opacity: 0.7;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     text-align: center;
     top: 30px;
@@ -515,12 +515,12 @@ ul li a:hover {
     background-size: cover;
 }
 
-.map{
+.map {
     font-weight: bolder;
     background-color: white;
     opacity: 0.5;
     color: black;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     font-size: 20px;
     position: relative;
     top: 150px;
@@ -531,7 +531,7 @@ ul li a:hover {
 
 
 body {
-    font-family:'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     margin: 0px;
     padding: 0px;
 }
@@ -641,7 +641,7 @@ h4 {
     font-size: 40px;
     line-height: 250px;
     padding: 0 50px 0 70px;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
 
 }
 
@@ -649,7 +649,7 @@ h4 {
     text-align: center;
     font-size: 45px;
     font-weight: 900;
-    font-family: 'Noto Serif TC', serif,"PMingLiU";
+    font-family: 'Noto Serif TC', serif, "PMingLiU";
     padding: 0 50px 0 70px;
 }
 
@@ -768,17 +768,17 @@ p3 {
     margin-top: 100px;
     font-size: 22px;
     color: white;
-    font-family:  'Noto Serif TC', serif,'PMingLiU';
+    font-family: 'Noto Serif TC', serif, 'PMingLiU';
     font-weight: "bold";
     text-align: center;
-    
+
 }
 
 .ending1 {
     margin-top: 100px;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
-    font-family:  'Noto Serif TC', serif,'PMingLiU';
+    font-family: 'Noto Serif TC', serif, 'PMingLiU';
     font-weight: "bold";
     text-align: center;
     /* height: 100vh; */
@@ -786,9 +786,188 @@ p3 {
 
 .ending2 {
     margin-top: 100px;
-    font-size: 22px;
+    font-size: 20px;
     color: white;
-    font-family:  'Noto Serif TC', serif,'PMingLiU';
+    font-family: 'Noto Serif TC', serif, 'PMingLiU';
     font-weight: "bold";
     text-align: center;
+}
+
+body {
+	background: #333;
+}
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+.mouse_scroll {
+	display: block;
+	margin: 0 auto;
+	width: 10px;
+	height: 60px;
+	margin-top: 125px;
+}
+
+
+.m_scroll_arrows
+{
+  display: block;
+  width: 3px;
+  height: 3px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+   
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0 0 3px 4px;
+  
+  width: 16px;
+  height: 16px;
+}
+
+
+.unu
+{
+  margin-top: -150px;
+}
+
+.unu, .doi, .trei
+{
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+  
+}
+
+.unu
+{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+  
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.doi
+{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .2s;
+  animation-direction: alternate;
+  
+  margin-top: -6px;
+}
+
+.trei
+{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .3s;
+  animation-direction: alternate;
+  
+  
+  margin-top: -6px;
+}
+
+.mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid white;
+  top: -40px;
+}
+
+.wheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: white;
+  position: relative;
+  
+  height: 4px;
+  width: 4px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.wheel {
+  -webkit-animation: mouse-wheel 0.6s linear infinite;
+  -moz-animation: mouse-wheel 0.6s linear infinite;
+  animation: mouse-wheel 0.6s linear infinite;
+}
+
+@-webkit-keyframes mouse-wheel{
+   0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-moz-keyframes mouse-wheel {
+  0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+@-o-keyframes mouse-wheel {
+
+   0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+@keyframes mouse-wheel {
+
+   0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+
+@-webkit-keyframes mouse-scroll {
+
+  0%   { opacity: 0;}
+  50%  { opacity: .5;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@-o-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
 }
